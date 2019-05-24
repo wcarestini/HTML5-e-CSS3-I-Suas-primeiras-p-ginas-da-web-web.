@@ -39,6 +39,7 @@ p {
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+
 }
 nav a {
 	color: #F2FFFC;
@@ -56,6 +57,7 @@ aside a {
 	width: 720px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-bottom: 80px;
 }
 
 main div{
@@ -91,6 +93,10 @@ em{
     padding: 20px;
     text-align: center;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 article{
 	padding-bottom: 30px;
@@ -132,13 +138,12 @@ nav a{
 .petrobras{
 	float: left;
 }
-aside, img{
+aside, .minha-foto{
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
 	float: right;
-	width: 15%;
+	
 	box-sizing: border-box;
-
 }
 main{
 	float: left;
@@ -148,4 +153,14 @@ cite {
 	float: right;
 	font-style: italic;
 
+}
+.minha-foto{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+aside{
+	width: 15%;
+	position: relative;
+	top: 310px;
 }
