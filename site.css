@@ -30,9 +30,8 @@ p {
 	padding: 20px;
 	border: 10px solid #C2CCCA;
 	width: 250px;
-	margint: 20px 40px;
+	margin: 20px 40px;
 	box-sizing: border-box;
-
 }
 
 .navegacao-site {
@@ -69,6 +68,7 @@ ul{
 }
 h2{
 	font-size: 30px;
+	clear: both;
 }
 aside h1{
 	font-size: 30px;
@@ -81,9 +81,6 @@ strong {
 em{
 	font-style: italic;
 }
-h2{
-	font-size: 30px;
-}
 .icones-sociais li {
 	display: inline-block;
 
@@ -93,6 +90,7 @@ h2{
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
+    clear: both;
 }
 article{
 	padding-bottom: 30px;
@@ -127,4 +125,27 @@ h1{
 }
 nav a{
 	text-transform: lowercase;
+}
+.fiat{
+	float: right;
+}
+.petrobras{
+	float: left;
+}
+aside, img{
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+
+}
+main{
+	float: left;
+	width: 85%;
+}
+cite {
+	float: right;
+	font-style: italic;
+
 }
