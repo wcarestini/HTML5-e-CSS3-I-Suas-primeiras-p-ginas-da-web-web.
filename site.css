@@ -17,6 +17,7 @@ h1, h2 {
 	padding: 22px;
 	margin: 0;
 	border: 10px solid black;
+	
 }
 
 p {
@@ -72,6 +73,7 @@ h2{
 aside h1{
 	font-size: 30px;
 	margin-bottom: 25px;
+
 }
 strong {
 	font-weight: bold;
@@ -104,4 +106,25 @@ article{
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -99999px;
+}
+.github{
+	background-image: url(github.png);
+}
+.twitter{
+	background-image: url(twitter.png);
+}
+.linkedin{
+	background-image: url(linkedin.png);
+}
+h1{
+	text-transform: uppercase;
+}
+nav a{
+	text-transform: lowercase;
 }
