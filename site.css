@@ -88,3 +88,6 @@ em{
 h2{
 	font-size: 30px;
 }
+aside li{
+	display: inline-block;
+}
