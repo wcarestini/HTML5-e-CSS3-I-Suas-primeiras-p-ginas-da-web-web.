@@ -118,13 +118,13 @@ article{
 	text-indent: -99999px;
 }
 .github{
-	background-image: url(github.png);
+	background-image: url(../img/github.png);
 }
 .twitter{
-	background-image: url(twitter.png);
+	background-image: url(../img/twitter.png);
 }
 .linkedin{
-	background-image: url(linkedin.png);
+	background-image: url(../img/linkedin.png);
 }
 h1{
 	text-transform: uppercase;
@@ -155,6 +155,7 @@ cite {
 
 }
 .minha-foto{
+	background-image: url(img/eu.jpg);
 	position: absolute;
 	top: 0px;
 	right: 0px;
